@@ -1,5 +1,5 @@
 **Boundless BookRealm **
-   e-Library Management System
+
 Boundless BookRealm is an e-Library management system that provides a comprehensive platform for users to explore, search, and access a vast collection of books. It is built using React (TypeScript) for the frontend, Spring Boot for the backend (with REST API), and MySQL for the database.
 
  
