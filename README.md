@@ -21,7 +21,11 @@ Boundless BookRealm is an e-Library management system that provides a comprehens
   * Book Search with Pagination: Completed
   * Book Checkout: In progress
   * Book Review System: In progress
-  * Sign-In/Sign-Out and Login/Logout Authentication: Not started
+  * Sign-In/Sign-Out and Login/Logout Authentication: In progress
   * Library Services: Not started
   * Admin Services: Not started
   * Payment Processing System: Not started
+
+
+https://github.com/MeftohuAhmed/BoundlessBookRealm/assets/91487090/e0cd0575-d55b-4697-9cb8-d4b148b6c8d9
+
