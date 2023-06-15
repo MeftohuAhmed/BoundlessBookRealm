@@ -1,6 +1,7 @@
 package com.TheFeridBrothers.Boundless.BookRealm.config;
 
 import com.TheFeridBrothers.Boundless.BookRealm.entity.Book;
+import com.TheFeridBrothers.Boundless.BookRealm.entity.Review;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
@@ -21,8 +22,10 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
                 HttpMethod.PUT
         };
         config.exposeIdsFor(Book.class);
+        config.exposeIdsFor(Review.class);
 
         disableHttpMethods(Book.class, config, theUnsupportedActions);
+        disableHttpMethods(Review.class, config, theUnsupportedActions);
 
         /* Configure CORs Mapping  */
         cors.addMapping(config.getBasePath() + "/**").allowedOrigins(theAllowedOrigins);
