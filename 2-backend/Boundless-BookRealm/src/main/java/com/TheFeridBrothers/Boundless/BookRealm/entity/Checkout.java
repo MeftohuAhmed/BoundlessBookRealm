@@ -9,6 +9,15 @@ import javax.persistence.*;
 @Data
 public class Checkout {
 
+    public Checkout() {}
+
+    public Checkout(String userEmail, String checkoutDate, String returnDate, Long bookId) {
+        this.userEmail = userEmail;
+        this.checkoutDate = checkoutDate;
+        this.returnDate = returnDate;
+        this.bookId = bookId;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column (name = "id")
@@ -25,13 +34,4 @@ public class Checkout {
 
     @Column (name = "book_id")
     private Long bookId;
-
-    public Checkout() {}
-
-    public Checkout(String userEmail, String checkoutDate, String returnDate, Long bookId) {
-        this.userEmail = userEmail;
-        this.checkoutDate = checkoutDate;
-        this.returnDate = returnDate;
-        this.bookId = bookId;
-    }
 }

@@ -4,7 +4,6 @@ import com.TheFeridBrothers.Boundless.BookRealm.dao.BookRepository;
 import com.TheFeridBrothers.Boundless.BookRealm.dao.CheckoutRepository;
 import com.TheFeridBrothers.Boundless.BookRealm.entity.Book;
 import com.TheFeridBrothers.Boundless.BookRealm.entity.Checkout;
-import org.springframework.beans.propertyeditors.CharacterEditor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -34,7 +33,7 @@ public class BookService {
             throw new Exception("Book doesn't exist or already checkout by user");
         }
 
-        book.get().setCopiesAvailable(book.get().getCopiesAvailable());
+        book.get().setCopiesAvailable(book.get().getCopiesAvailable() - 1);
         bookRepository.save(book.get());
 
         Checkout checkout = new Checkout(
