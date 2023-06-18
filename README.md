@@ -19,10 +19,10 @@ Boundless BookRealm is an e-Library management system that provides a comprehens
   * Backend Setup and API Interface: Completed
   * Carousel Feature and API: Completed 
   * Book Search with Pagination: Completed
-  * Book Checkout: In progress
-  * Book Review System: In progress
+  * Book Checkout: completed
+  * Book Review System: completed
   * Sign-In/Sign-Out and Login/Logout Authentication: Completed
-  * Library Services: Not started
+  * Library Services: In progress
   * Admin Services: Not started
   * Payment Processing System: Not started
 
