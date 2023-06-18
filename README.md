@@ -27,5 +27,8 @@ Boundless BookRealm is an e-Library management system that provides a comprehens
   * Payment Processing System: Not started
 
 
-https://github.com/MeftohuAhmed/BoundlessBookRealm/assets/91487090/e0cd0575-d55b-4697-9cb8-d4b148b6c8d9
+
+
+https://github.com/MeftohuAhmed/BoundlessBookRealm/assets/91487090/73a93a82-3200-44d7-a6de-78befb135f38
+
 
