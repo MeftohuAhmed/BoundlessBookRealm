@@ -22,8 +22,9 @@ Boundless BookRealm is an e-Library management system that provides a comprehens
   * Book Checkout: completed
   * Book Review System: completed
   * Sign-In/Sign-Out and Login/Logout Authentication: Completed
-  * Library Services: In progress
-  * Admin Services: Not started
+  * Library Services: completed
+  * Admin Services: completed
+  * Security: In progress
   * Payment Processing System: Not started
 
 
