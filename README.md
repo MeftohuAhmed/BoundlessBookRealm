@@ -30,6 +30,7 @@ Boundless BookRealm is an e-Library management system that provides a comprehens
 
 ## Demo
 
-https://github.com/MeftohuAhmed/BoundlessBookRealm/assets/91487090/73a93a82-3200-44d7-a6de-78befb135f38
+https://github.com/MeftohuAhmed/BoundlessBookRealm/assets/91487090/a8946e39-2ca3-4c81-b1cd-ddc017653d79
+
 
 
